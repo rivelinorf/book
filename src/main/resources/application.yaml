@@ -1,0 +1,9 @@
+server:
+    port: 8080
+
+author-api:
+    url: http://localhost:9090/authors
+
+spring:
+    application:
+        name: book-api
