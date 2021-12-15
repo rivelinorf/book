@@ -7,3 +7,11 @@ author-api:
 spring:
     application:
         name: book-api
+
+management:
+    endpoints:
+        health:
+            show-details: always
+        web:
+            exposure:
+                include: '*'
